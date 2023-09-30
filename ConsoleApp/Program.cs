@@ -7,5 +7,6 @@ internal class Program
     {
         ClassA classAObject = new(5);
         Console.WriteLine(classAObject);
+        Console.WriteLine(classAObject.CLassAIntProperty * 24;
     }
 }
