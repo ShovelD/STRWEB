@@ -1,8 +1,11 @@
 ﻿
+using ConsoleApp;
+
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        ClassA classAObject = new(5);
+        Console.WriteLine(classAObject);
     }
 }
