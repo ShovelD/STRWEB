@@ -9,10 +9,14 @@ internal class Program
         Console.WriteLine(classAObject);
         Console.WriteLine(classAObject.CLassAIntProperty * 24);
         Console.WriteLine(classAObject.CLassAIntProperty * Math.PI / 2);
-        Function();
+        Function(classAObject);
     }
-    private static void Function() 
+    private static void Function(ClassA classA) 
     {
+
         Console.WriteLine("New Feature");
+        Console.WriteLine($"classA base value:{classA.CLassAIntProperty}" +
+            $"ClasssA modified value{classA.CLassAIntProperty * 0.3}");
+
     }
 }
